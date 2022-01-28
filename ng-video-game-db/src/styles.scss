@@ -1,0 +1,15 @@
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #151515;
+    padding-top: 60px;
+    height: 100%;
+  }
+  
+  // * means the children of the element on the left
+  // in this case, the children of the body tag
+  body * {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
